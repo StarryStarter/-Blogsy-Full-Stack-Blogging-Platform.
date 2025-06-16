@@ -17,7 +17,7 @@ app.use(express.json())
 
 
 //routes
-app.get('/',(req,res)=>res.send("working af.."))
+app.get('/',(req,res)=>res.send("working fine.."))
 app.use('/api/admin',adminRouter)
 app.use('/api/user', userRouter);
 app.use('/api/blog',blogRouter)
